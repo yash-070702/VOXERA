@@ -12,3 +12,6 @@ export const PATH_DASHBOARD = {
     app: path(ROOTS_DASHBOARD, "app"),
   },
 };
+
+//  the upper whole function is used to create a route that is "/app"
+//  "/" + "app"="/app"

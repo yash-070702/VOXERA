@@ -21,7 +21,7 @@ const AntSwitch = styled(Switch)(({ theme }) => ({
       color: "#fff",
       "& + .MuiSwitch-track": {
         opacity: 1,
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: theme.palette.mode === "dark" ? "#177ddc" : "#1890ff",
       },
     },
   },
@@ -29,7 +29,7 @@ const AntSwitch = styled(Switch)(({ theme }) => ({
     boxShadow: "0 2px 4px 0 rgb(0 35 11 / 20%)",
     width: 16,
     height: 16,
-    borderRadius: 8,
+    borderRadius: 12,
     transition: theme.transitions.create(["width"], {
       duration: 200,
     }),
